@@ -1,0 +1,42 @@
+{
+  "name": "gpt-tools-server",
+  "version": "1.0.0",
+  "description": "This is the main application that creates the server that all of my apps and services interface with and vise versa",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingbutter/gpt-tools.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "tools",
+    "chat",
+    "tools",
+    "chat",
+    "gpt",
+    "server",
+    "express",
+    "server"
+  ],
+  "author": "CodingButter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingbutter/gpt-tools/issues"
+  },
+  "homepage": "https://github.com/codingbutter/gpt-tools#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "yarn": "^1.22.22"
+  },
+  "peerDependencies": {
+    "eslint": "^9.17.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "gpt-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a set of tools used to allow chat_gpt to interface with my apps and services",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingbutter/gpt-tools-workspace.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "chat",
+    "tools"
+  ],
+  "author": "CodingButter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingbutter/gpt-tools-workspace/issues"
+  },
+  "homepage": "https://github.com/codingbutter/gpt-tools#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@powerfulyang/lint": "^3.7.0",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "prettier": "^3.4.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.2"
+  }
+}

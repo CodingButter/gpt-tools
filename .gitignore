@@ -1,0 +1,29 @@
+// how do i ignore node_modules from anywhere in the project
+// after researching, i found that i can add node_modules/ to the .gitignore file
+
+// node_modules
+node_modules/
+src/**/node_modules/*
+
+// build output
+dist
+
+
+// all local environment files
+.env
+*.env.*
+
+.DS_Store
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+.idea
+.vscode
+*.log
+
+// OS generated files
+*.db
+*.sqlite
+*.sqlite3
